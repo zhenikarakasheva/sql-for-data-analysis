@@ -21,27 +21,27 @@ Product
 WHERE
 [Rest of code]
 ```
-* ```
+* `
 Variety = 'Blueberry'
 AND
 Price < 2.00 
-```
-* ```
+`
+* `
 Variety = 'Blueberry
 OR
 Price < 2.00
-```
-* ```
+`
+* `
 Variety = `Blueberry`
 AND
 Price > 2.00
-```
+`
 Answer: 
-```
+`
 Variety = 'Blueberry'
 AND
 Price < 2.00
-```
+`
 The logical "AND" operator will only allow the return of products that are of the "Blueberry" variety AND under two dollars.
 
 ### Question 3
@@ -67,7 +67,7 @@ CREATE TABLE Customer(
   Name nvarchar(50) NOT NULL,
   Zipcode int NOT NULL
 )
-
+```
 * 100
 * 50
 * 4
