@@ -24,7 +24,8 @@ Answer:
 ```
 SELECT COUNT(DISTINCT CustomerID)
 From Orders;
-``` - The DISTINCT keyword will only count customers who have not already been counted.
+```
+The DISTINCT keyword will only count customers who have not already been counted.
 
 ### Question 3
 Which SQL function should you use to join 2 or more strings into a new string?
