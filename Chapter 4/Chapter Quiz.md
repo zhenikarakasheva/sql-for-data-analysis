@@ -8,19 +8,18 @@ Answer: `INSERT`
 
 ### Question 2
 Janelle has a `Customer` database with customer information and an `Orders` database of orders that her customers made. How can she get the count of customers who have made orders?
+* ``` 
+  SELECT COUNT(CustomerID)
+  From Customer;
+  ```
+* ``` 
+  SELECT COUNT(CustomerID)
+  From Orders;
+  ```
 * ```
-SELECT COUNT(CustomerID)
-From Customer;
-```
-* ```
-SELECT COUNT(CustomerID)
-From Orders;
-```
-* 
-```
-SELECT COUNT(DISTINCT CustomerID)
-From Orders;
-```
+  SELECT COUNT(DISTINCT CustomerID)
+  From Orders;
+  ```
 Answer: 
 ```
 SELECT COUNT(DISTINCT CustomerID)
