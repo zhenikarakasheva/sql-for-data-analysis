@@ -27,12 +27,12 @@ AND
 Price < 2.00 
 `
 * `
-Variety = 'Blueberry
+Variety = 'Blueberry'
 OR
 Price < 2.00
 `
 * `
-Variety = `Blueberry`
+Variety = 'Blueberry'
 AND
 Price > 2.00
 `
