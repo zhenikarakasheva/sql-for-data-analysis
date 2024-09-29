@@ -36,6 +36,7 @@ Variety = 'Blueberry'
 AND
 Price > 2.00
 `
+
 Answer: 
 `
 Variety = 'Blueberry'
